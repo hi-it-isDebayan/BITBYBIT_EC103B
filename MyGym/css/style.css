@@ -138,12 +138,78 @@ section {
   color: #fff;
   padding: 1rem 0;
 }
+.middle-content{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  margin-top: 100px;
+  padding: 50px 15% 10px;
+  border-bottom: 6px solid #333;
+  color: #777;
+}
+.middle-content h1{
+  padding: 50px 15% 10px;
+  border-top: 6px solid #333;
+  color: #fff;
+  font-size:40px;
+  margin-bottom: 10px;
+  margin-top: 200px;
+}
+.middle-content h3{
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.email-signup{
+  background: #fff;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.email-signup input{
+  flex: 1;
+  border: 0;
+  outline: 0;
+  margin-left: 20px;
+}
+.email-signup button{
+  background: #db0001;
+  border: 0;
+  outline: 0;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 15px 30px;
+}
+.club-button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+  margin-bottom: 25px;
+}
+
+.club-button:hover {
+  background-color: darkred;
+}
+
+
 /* ------features------- */
 .features{
   
   padding: 50px 12%;
   font-size: 22px;
 }
+
 .row{
   display: flex;
   width:100%;
@@ -176,7 +242,7 @@ section {
   margin-bottom: 20px;
 }
 .features p{
-  font-size: 10px;
+  font-size: 25px;
   font-weight: 600;
 }
 
@@ -249,10 +315,120 @@ input[type="radio"]{
 .accordion input[type="radio"]:checked + label::after{
   transform: rotate(135deg);
 }
-/* --------------copyright------------ */
-p.copyright{
-  padding: 10px 12%;
-  color: blue;
-  text-align: center;
+/* -----------slide-photos------------ */
+.just{
+  display: flex;
+  justify-content: center;
+}
+.slide2{
+  margin-bottom: 30px;/*to distance the copyright section*/
+  height:500px;
+  width:400px;
+  background-color: white;
+  background-image:url("gym1.avif");
+  background-size: 100% 100%;
+  box-shadow: 2px 3px 10px 5px white;
+  animation: slider 20s infinite linear;
+
+}
+@keyframes slider{
+  0%{
+      background-image: url("gym1.avif");
+  }
+  16%{
+      background-image:url("gym4.jpeg");
+  }
+  32%{
+      background-image: url("gym5.webp");
+  }
+  48%{
+      background-image: url("gym6.webp");
+  }
+  64%{
+      background-image: url("gym7.jpeg");
+  }
+  78%{
+      background-image: url("gym8.jpeg");
+  }
+  88%{
+      background-image: url("gym9.jpeg");
+  }
+}
+/* ----------------membership---------------- */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 40px;
+}
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 15px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.submit-button,
+.reset-button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover,
+.reset-button:hover {
+  background-color: darkred;
+}
+.faq small{
+  font-size: 15px;
+}
+/* --------------------footer----------------- */
+.footer{
+  padding: 50px 15% 10px;
+  border-top: 6px solid #333;
+  color: #777;
+}
+.footer h2{
   font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.footer .col{
+  flex-basis: 25%;
+  flex-grow: 1;
+  margin-bottom: 20px;
+}
+.footer .col a{
+  display: block;
+  text-decoration: none;
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.footer .row{
+  align-items: flex-start;
+  padding: 10px 0;
+}
+
+/* --------------copyright------------ */
+.copyright-txt{
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
 }
