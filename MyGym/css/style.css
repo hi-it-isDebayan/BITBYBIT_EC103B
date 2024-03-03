@@ -33,6 +33,7 @@ html::-webkit-scrollbar-thumb {
 
 body {
   background: #000;
+  color: #fff
   
 }
 
@@ -136,4 +137,122 @@ section {
   font-size: 5rem;
   color: #fff;
   padding: 1rem 0;
+}
+/* ------features------- */
+.features{
+  
+  padding: 50px 12%;
+  font-size: 22px;
+}
+.row{
+  display: flex;
+  width:100%;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 50px 0;
+}
+.text-col{
+  flex-basis: 50%;
+  margin-bottom: 20px;
+}
+.img-col{
+  flex-basis: 50%;
+  margin-bottom: 20px;
+  width: 499.2px;
+  height: 374.4px;
+  overflow: hidden;
+}
+.img-col img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.features h2{
+  color: #ae1717;
+  font-family: "moon extra bold", Sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.features p{
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.img-col img{
+  position: relative;
+  animation: dropFromTop 8s ease-out forwards; /* Adjust animation duration (1s in this example) and easing as needed */
+}
+@keyframes dropFromTop {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+/* ---------------faq------------- */
+.faq{
+  padding: 10px 12%;
+  text-align: center;
+  font-size: 18px;
+}
+.faq h2{
+  font-weight: 500;
+  font-size: 40px;
+}
+.accordion{
+  margin: 60px auto;
+  width: 100%;
+  max-width: 750px;;
+}
+.accordion li{
+  list-style: none;
+  width: 100%;
+  padding: 5px;
+}
+.accordion li label{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  background: #303030;
+  margin-bottom: 2px;
+  cursor: pointer;
+  position: relative;
+}
+label::after{
+  content: '+';
+  font-size: 34px;
+  position: absolute;
+  right: 20px;
+transition: transform 0.5s;
+}
+input[type="radio"]{
+  display: none;
+}
+.accordion .content{
+  background: #303030;
+  text-align: left;
+  padding: 0 20px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s, padding 0.5s;
+}
+.accordion input[type="radio"]:checked + label +.content{
+  max-height: 600px;
+  padding: 30px 20px;
+
+}
+.accordion input[type="radio"]:checked + label::after{
+  transform: rotate(135deg);
+}
+/* --------------copyright------------ */
+p.copyright{
+  padding: 10px 12%;
+  color: blue;
+  text-align: center;
+  font-size: 18px;
 }
