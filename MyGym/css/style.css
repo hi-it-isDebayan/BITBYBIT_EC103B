@@ -228,10 +228,124 @@ section {
   height: 374.4px;
   overflow: hidden;
 }
-.img-col img{
+/* .img-col img{
   width: 100%;
   height: auto;
   display: block;
+} */
+/* -------------1---------------------- */
+.just2{
+  display: flex;
+  justify-content: center;
+}
+.slide3{
+  margin-bottom: 30px;/*to distance the copyright section*/
+  height:500px;
+  width:400px;
+  background-color: white;
+  background-image: url("https://media.istockphoto.com/id/1127485222/photo/gym-training-on-stationary-bikes.jpg?s=612x612&w=0&k=20&c=iBD_Cksse1_7FRoWgnxMI1fz34eheOEUexYzGYIEaDI=");
+  background-size: 100% 100%;
+  box-shadow: 2px 3px 10px 5px white;
+  animation: slider1 20s infinite linear;
+}
+@keyframes slider1{
+  0%{
+      background-image: url("https://media.istockphoto.com/id/1127485222/photo/gym-training-on-stationary-bikes.jpg?s=612x612&w=0&k=20&c=iBD_Cksse1_7FRoWgnxMI1fz34eheOEUexYzGYIEaDI=");
+  }
+  16%{
+      background-image:url("https://media.istockphoto.com/id/487768398/photo/close-up-of-athletic-muscular-man.jpg?s=612x612&w=0&k=20&c=JZCu7QCgEttadosdpmCLjVqzQ3TMr7QUWtAtjMFtTY0=");
+  }
+  32%{
+      background-image: url("https://media.istockphoto.com/id/648684978/photo/personal-workout-plan-with-sneakers-and-dumbbells.jpg?s=612x612&w=0&k=20&c=nme9j-3tI0lT-Iwh6OD5jSo_yxnWXxYNBT_73FZObz0=");
+  }
+  48%{
+      background-image: url("https://media.istockphoto.com/id/1155222301/photo/group-of-people-using-exercising-bike-at-a-fitness-centre.jpg?s=612x612&w=0&k=20&c=XmRHOlwb4Gq-tkEdqc2B49Y9fj_w48V_NdYjp9te5_M=");
+  }
+  64%{
+      background-image: url("https://media.istockphoto.com/id/474068730/photo/gym-is-a-way-of-life.webp?b=1&s=170667a&w=0&k=20&c=RO4bl9EuiYXY6jZGSHOH6Vbrk9RB8gSj8vdQ0_y5htA=");
+  }
+  78%{
+      background-image: url("https://media.istockphoto.com/id/1132006407/photo/empty-gym.jpg?s=612x612&w=0&k=20&c=si73-OzIvdfuD7J82-WGJogpxgulXHVxmzldCjopuno=");
+  }
+  88%{
+      background-image: url("https://media.istockphoto.com/id/1427218939/photo/men-and-woman-cycling-at-gym.jpg?s=612x612&w=0&k=20&c=VkUIDSRl98iFnJhpv-g0p7PHUPcK2Rv6jq60CeFN7do=");
+  }
+}
+/* -----------------2--------------------------- */
+.just3{
+  display: flex;
+  justify-content: center;
+}
+.slide4{
+  margin-bottom: 30px;/*to distance the copyright section*/
+  height:500px;
+  width:400px;
+  background-color: white;
+  background-image:url("https://images.unsplash.com/photo-1577221084712-45b0445d2b00?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Z3ltfGVufDB8fDB8fHww");
+  background-size: 100% 100%;
+  box-shadow: 2px 3px 10px 5px white;
+  animation: slider2 20s infinite linear;
+}
+@keyframes slider2{
+  0%{
+      background-image: url("https://images.unsplash.com/photo-1577221084712-45b0445d2b00?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Z3ltfGVufDB8fDB8fHww");
+  }
+  16%{
+      background-image:url("https://images.unsplash.com/photo-1550345332-09e3ac987658?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Z3ltfGVufDB8fDB8fHww");
+  }
+  32%{
+      background-image: url("https://images.unsplash.com/photo-1594381898411-846e7d193883?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGd5bXxlbnwwfHwwfHx8MA%3D%3D");
+  }
+  48%{
+      background-image: url("https://media.istockphoto.com/id/923739288/photo/athlete-working-out-with-battle-ropes-at-cross-gym.webp?b=1&s=170667a&w=0&k=20&c=1Io1zNaQa8klJ-NbvOO0pLo2zf7xmQGCulbnD7_L23o=");
+  }
+  64%{
+      background-image: url("https://media.istockphoto.com/id/474068730/photo/gym-is-a-way-of-life.webp?b=1&s=170667a&w=0&k=20&c=RO4bl9EuiYXY6jZGSHOH6Vbrk9RB8gSj8vdQ0_y5htA=");
+  }
+  78%{
+      background-image: url("https://media.istockphoto.com/id/1183038884/photo/view-of-a-row-of-treadmills-in-a-gym-with-people.jpg?s=612x612&w=0&k=20&c=VnTSyKHKl-YFOmpFqW_hNyIlis0sFksfcR9Ei3-r29s=");
+  }
+  88%{
+      background-image: url("https://media.istockphoto.com/id/1427218939/photo/men-and-woman-cycling-at-gym.jpg?s=612x612&w=0&k=20&c=VkUIDSRl98iFnJhpv-g0p7PHUPcK2Rv6jq60CeFN7do=");
+  }
+}
+/* ----------------3---------------------------------- */
+.just4{
+  display: flex;
+  justify-content: center;
+}
+.slide5{
+  margin-bottom: 30px;/*to distance the copyright section*/
+  height:500px;
+  width:400px;
+  background-color: white;
+  background-image:url("https://media.istockphoto.com/id/493790968/photo/beautiful-young-sporty-sexy-couple-workout-in-gym.jpg?s=612x612&w=0&k=20&c=q2hIDXPdWYwUFZtCyUzt26w8xThkPtgIeZ5LGyQDrkc=");
+  background-size: 100% 100%;
+  box-shadow: 2px 3px 10px 5px white;
+  animation: slider3 20s infinite linear;
+}
+@keyframes slider3{
+  0%{
+      background-image: url("https://media.istockphoto.com/id/493790968/photo/beautiful-young-sporty-sexy-couple-workout-in-gym.jpg?s=612x612&w=0&k=20&c=q2hIDXPdWYwUFZtCyUzt26w8xThkPtgIeZ5LGyQDrkc=");
+  }
+  16%{
+      background-image:url("https://images.unsplash.com/photo-1550345332-09e3ac987658?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Z3ltfGVufDB8fDB8fHww");
+  }
+  32%{
+      background-image: url("https://images.unsplash.com/photo-1594381898411-846e7d193883?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGd5bXxlbnwwfHwwfHx8MA%3D%3D");
+  }
+  48%{
+      background-image: url("https://media.istockphoto.com/id/1322158059/photo/dumbbell-water-bottle-towel-on-the-bench-in-the-gym.jpg?s=612x612&w=0&k=20&c=CIdh6LPGwU6U6lbvKCdd7LcppidaYwcDawXJI-b0yGE=");
+  }
+  64%{
+      background-image: url("https://media.istockphoto.com/id/474068730/photo/gym-is-a-way-of-life.webp?b=1&s=170667a&w=0&k=20&c=RO4bl9EuiYXY6jZGSHOH6Vbrk9RB8gSj8vdQ0_y5htA=");
+  }
+  78%{
+      background-image: url("https://media.istockphoto.com/id/1183038884/photo/view-of-a-row-of-treadmills-in-a-gym-with-people.jpg?s=612x612&w=0&k=20&c=VnTSyKHKl-YFOmpFqW_hNyIlis0sFksfcR9Ei3-r29s=");
+  }
+  88%{
+      background-image: url("https://media.istockphoto.com/id/1348966908/photo/sports-woman-turns-over-tire-wheel-in-gym-spraying-sand-concept-workout-zeal-for-victory.jpg?s=612x612&w=0&k=20&c=bZ1KwQgV8Q6sLmOWOsF6eIOXTqLomSnAjbpsCWcdcKA=");
+  }
 }
 .features h2{
   color: #ae1717;
@@ -325,7 +439,7 @@ input[type="radio"]{
   height:500px;
   width:400px;
   background-color: white;
-  background-image:url("gym1.avif");
+  background-image:url("https://images.unsplash.com/photo-1577221084712-45b0445d2b00?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Z3ltfGVufDB8fDB8fHww");
   background-size: 100% 100%;
   box-shadow: 2px 3px 10px 5px white;
   animation: slider 20s infinite linear;
@@ -333,25 +447,25 @@ input[type="radio"]{
 }
 @keyframes slider{
   0%{
-      background-image: url("gym1.avif");
+      background-image: url("https://images.unsplash.com/photo-1577221084712-45b0445d2b00?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Z3ltfGVufDB8fDB8fHww");
   }
   16%{
-      background-image:url("gym4.jpeg");
+      background-image:url("https://images.unsplash.com/photo-1550345332-09e3ac987658?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Z3ltfGVufDB8fDB8fHww");
   }
   32%{
-      background-image: url("gym5.webp");
+      background-image: url("https://images.unsplash.com/photo-1594381898411-846e7d193883?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGd5bXxlbnwwfHwwfHx8MA%3D%3D");
   }
   48%{
-      background-image: url("gym6.webp");
+      background-image: url("https://media.istockphoto.com/id/923739288/photo/athlete-working-out-with-battle-ropes-at-cross-gym.webp?b=1&s=170667a&w=0&k=20&c=1Io1zNaQa8klJ-NbvOO0pLo2zf7xmQGCulbnD7_L23o=");
   }
   64%{
-      background-image: url("gym7.jpeg");
+      background-image: url("https://media.istockphoto.com/id/474068730/photo/gym-is-a-way-of-life.webp?b=1&s=170667a&w=0&k=20&c=RO4bl9EuiYXY6jZGSHOH6Vbrk9RB8gSj8vdQ0_y5htA=");
   }
   78%{
-      background-image: url("gym8.jpeg");
+      background-image: url("https://media.istockphoto.com/id/1183038884/photo/view-of-a-row-of-treadmills-in-a-gym-with-people.jpg?s=612x612&w=0&k=20&c=VnTSyKHKl-YFOmpFqW_hNyIlis0sFksfcR9Ei3-r29s=");
   }
   88%{
-      background-image: url("gym9.jpeg");
+      background-image: url("https://media.istockphoto.com/id/1427218939/photo/men-and-woman-cycling-at-gym.jpg?s=612x612&w=0&k=20&c=VkUIDSRl98iFnJhpv-g0p7PHUPcK2Rv6jq60CeFN7do=");
   }
 }
 /* ----------------membership---------------- */
